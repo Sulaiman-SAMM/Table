@@ -1,0 +1,81 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+    width: 65vh;
+    background-color: #eeeeee74;
+}
+/* End Global Rules */
+/* Start Table */
+table, td, th {
+    gap: 1px 1px;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+table {
+    margin: 35px 150px;
+}
+td, th {
+    padding: 15px 30px;
+    text-align: center;
+}
+th {
+    background-color: #fc5103;
+    color: white;
+}
+table tr td:first-child {
+    color: #777;
+}
+table tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+table tr:nth-child(odd) {
+    background-color: #dedada;
+}
+span {
+    font-size: 10px;
+    color: #777;
+}
+table tr  .misoni {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fc5103;
+    position: relative;
+}
+table .misoni::before {
+    content: "$";
+    font-size: 8px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: black;
+}
+table .misoni::after {
+    content: "99";
+    font-size: 8px;
+    position: absolute;
+    right: 50px;
+    color: black;
+}
+a {
+    padding: 5px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 6px;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+a:hover {
+    background-color: #fc5103;
+}
+/* End Table */
